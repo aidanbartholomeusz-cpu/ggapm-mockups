@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grouse Gardens — Service Page Mockups | Clyra Digital</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,400&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-font-smoothing:antialiased}
+body{font-family:'Raleway',sans-serif;background:#F2EDE5;color:#2C2C2C;min-height:100vh}
+
+/* Header */
+.header{background:#2B4F34;padding:36px 0 32px}
+.header-inner{max-width:1000px;margin:0 auto;padding:0 32px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+.logo{height:52px;width:auto;filter:brightness(0)invert(1);opacity:.9}
+.header-meta{text-align:right}
+.header-meta p{font-size:.72rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.45);margin-bottom:3px}
+.header-meta span{font-size:.82rem;color:rgba(255,255,255,.65)}
+
+/* Hero band */
+.hero-band{background:#3B6B47;padding:52px 32px;text-align:center}
+.hero-band h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2rem,4vw,3rem);font-weight:500;color:white;margin-bottom:10px;letter-spacing:.01em}
+.hero-band p{font-size:.92rem;color:rgba(255,255,255,.65);max-width:52ch;margin:0 auto 28px}
+.status-row{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);border-radius:4px;padding:8px 18px;font-size:.72rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.7)}
+.status-dot{width:7px;height:7px;background:#7EC87E;border-radius:50%}
+
+/* Grid */
+.grid-wrap{max-width:1000px;margin:0 auto;padding:48px 32px 64px}
+.grid-label{font-size:.68rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:#3B6B47;margin-bottom:20px;display:block}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+
+/* Cards */
+.card{background:white;border-radius:4px;border:1px solid #D8D8D4;overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .2s,transform .2s;text-decoration:none;color:inherit}
+.card:hover{box-shadow:0 8px 28px rgba(40,70,40,.12);transform:translateY(-2px)}
+.card-thumb{height:160px;overflow:hidden;position:relative;background:#C8D3C5}
+.card-thumb img{width:100%;height:100%;object-fit:cover;object-position:center 30%}
+.card-thumb-overlay{position:absolute;inset:0;background:linear-gradient(to top,rgba(30,55,35,.55),transparent)}
+.card-num{position:absolute;top:12px;left:12px;background:rgba(30,55,35,.75);backdrop-filter:blur(6px);color:white;font-size:.62rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:4px 10px;border-radius:3px}
+.card-body{padding:20px 18px;flex:1;display:flex;flex-direction:column}
+.card-body h2{font-family:'Cormorant Garamond',serif;font-size:1.3rem;font-weight:500;color:#2B4F34;margin-bottom:6px}
+.card-body p{font-size:.82rem;color:#666660;line-height:1.6;flex:1;margin-bottom:16px}
+.card-link{display:inline-flex;align-items:center;gap:7px;font-size:.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#3B6B47;transition:gap .18s}
+.card:hover .card-link{gap:11px}
+.card-link svg{width:12px;height:12px;fill:none;stroke:currentColor;stroke-width:2.5;stroke-linecap:round}
+
+/* Footer */
+.foot{background:#2B4F34;padding:24px 32px;text-align:center;font-size:.72rem;color:rgba(255,255,255,.35);letter-spacing:.06em}
+.foot span{color:rgba(255,255,255,.55)}
+
+@media(max-width:600px){.grid{grid-template-columns:1fr}.grid-wrap{padding:32px 20px 48px}}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-inner">
+    <img class="logo" src="images/Grouse-Gardens-Logo.png" alt="Grouse Gardens">
+    <div class="header-meta">
+      <p>Prepared by</p>
+      <span>Clyra Digital</span>
+    </div>
+  </div>
+</div>
+
+<div class="hero-band">
+  <h1>Website Mockups for Review</h1>
+  <p>Nine service pages built on the approved Landscaping template. Click any page to preview the full design.</p>
+  <div class="status-row">
+    <span class="status-dot"></span>
+    Draft — awaiting approval
+  </div>
+</div>
+
+<div class="grid-wrap">
+  <span class="grid-label">Service pages — 9 total</span>
+  <div class="grid">
+
+    <a href="landscaping.html" class="card">
+      <div class="card-thumb">
+        <img src="images/GG_0426_STILLS_1.jpg" alt="Landscaping">
+        <div class="card-thumb-overlay"></div>
+        <span class="card-num">01 · Approved template</span>
+      </div>
+      <div class="card-body">
+        <h2>Landscaping</h2>
+        <p>Full-scope landscaping services across the Eastern Suburbs — turfing, garden beds, paving, decking and irrigation.</p>
+        <span class="card-link">View page <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </div>
+    </a>
+
+    <a href="garden-maintenance.html" class="card">
+      <div class="card-thumb">
+        <img src="images/GG_0426_STILLS_6.jpg" alt="Garden Maintenance">
+        <div class="card-thumb-overlay"></div>
+        <span class="card-num">02</span>
+      </div>
+      <div class="card-body">
+        <h2>Garden Maintenance</h2>
+        <p>Regular mowing, hedging, weeding, pruning and full site clean-up on a schedule that keeps the garden looking its best.</p>
+        <span class="card-link">View page <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </div>
+    </a>
+
+    <a href="garden-design.html" class="card">
+      <div class="card-thumb">
+        <img src="images/GG_0426_STILLS_5.jpg" alt="Garden Design">
+        <div class="card-thumb-overlay"></div>
+        <span class="card-num">03</span>
+      </div>
+      <div class="card-body">
+        <h2>Garden Design</h2>
+        <p>Site-specific garden design from concept through to planting and construction — designed for how you actually live.</p>
+        <span class="card-link">View page <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </div>
+    </a>
+
+    <a href="hedging.html" class="card">
+      <div class="card-thumb">
+        <img src="images/GG_0426_STILLS_11.jpg" alt="Hedging">
+        <div class="card-thumb-overlay"></div>
+        <span class="card-num">04</span>
+      </div>
+      <div class="card-body">
+        <h2>Hedging</h2>
+        <p>Precise hedge trimming, establishment and rejuvenation — from formal box borders to large lilly pilly privacy screens.</p>
+        <span class="card-link">View page <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </div>
+    </a>
+
+    <a href="pruning.html" class="card">
+      <div class="card-thumb">
+        <img src="images/GG_0426_STILLS_4.jpg" alt="Pruning">
+        <div class="card-thumb-overlay"></div>
+        <span class="card-num">05</span>
+      </div>
+      <div class="card-body">
+        <h2>Pruning</h2>
+        <p>Expert pruning for shrubs, ornamentals, trees and fruit trees — species-specific timing and technique, every time.</p>
+        <span class="card-link">View page <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </div>
+    </a>
+
+    <a href="irrigation.html" class="card">
+      <div class="card-thumb">
+        <img src="images/GG_0426_STILLS_8.jpg" alt="Irrigation">
+        <div class="card-thumb-overlay"></div>
+        <span class="card-num">06</span>
+      </div>
+      <div class="card-body">
+        <h2>Irrigation</h2>
+        <p>Water-efficient irrigation design, installation and maintenance — drip systems, lawn sprinklers and smart controllers.</p>
+        <span class="card-link">View page <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </div>
+    </a>
+
+    <a href="lawn-maintenance.html" class="card">
+      <div class="card-thumb">
+        <img src="images/GG_0426_STILLS_7.jpg" alt="Lawn Maintenance">
+        <div class="card-thumb-overlay"></div>
+        <span class="card-num">07</span>
+      </div>
+      <div class="card-body">
+        <h2>Lawn Maintenance</h2>
+        <p>Regular mowing, edging, fertilising and renovation — professional lawn care on a schedule that suits your property.</p>
+        <span class="card-link">View page <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </div>
+    </a>
+
+    <a href="turfing.html" class="card">
+      <div class="card-thumb">
+        <img src="images/GG_0426_STILLS_15.jpg" alt="Turfing">
+        <div class="card-thumb-overlay"></div>
+        <span class="card-num">08</span>
+      </div>
+      <div class="card-body">
+        <h2>Turfing</h2>
+        <p>Fresh turf supply and installation — Sir Walter Buffalo, Kikuyu and Zoysia, with full soil preparation and establishment care.</p>
+        <span class="card-link">View page <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </div>
+    </a>
+
+    <a href="waste-removal.html" class="card">
+      <div class="card-thumb">
+        <img src="images/GG_0426_STILLS_10.jpg" alt="Waste Removal">
+        <div class="card-thumb-overlay"></div>
+        <span class="card-num">09</span>
+      </div>
+      <div class="card-body">
+        <h2>Waste Removal</h2>
+        <p>Fixed-price garden waste removal — green waste, hard rubbish and full site clearances, same week where possible.</p>
+        <span class="card-link">View page <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+      </div>
+    </a>
+
+  </div>
+</div>
+
+<div class="foot">
+  Prepared by <span>Clyra Digital</span> · Draft for client review · Not for distribution
+</div>
+
+</body>
+</html>
